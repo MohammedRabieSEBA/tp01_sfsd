@@ -9,7 +9,7 @@ int main() {
     printf("Entrez le mot à rechercher : ");
     scanf("%s", mot);
 
-    fichier = fopen("nom_du_fichier.txt", "r");
+    fichier = fopen(".\\EXO2\\nom_du_fichier.txt", "r");
 
     if (fichier == NULL) {
         printf("Erreur lors de l'ouverture du fichier.\n");

@@ -12,7 +12,7 @@ int main() {
     scanf("%d", &n);
 
     // Création du fichier binaire
-    FILE *fichier = fopen("mesures.bin", "wb");
+    FILE *fichier = fopen(".\\EXO6\\mesures.bin", "wb");
     if (fichier == NULL) {
         printf("Erreur lors de la création du fichier.\n");
         return 1;

@@ -7,9 +7,9 @@ void executer_programme(int n) {
     sprintf(chemin, ".\\EXO%d\\index0%d.c", n, n);
     if (access(chemin, F_OK) != -1 ) {
         char commande[100];
-        sprintf(commande, "gcc %s -o programme%d", chemin, n);
+        sprintf(commande, "gcc %s -o .\\EXO%d\\programme%d", chemin, n);
         system(commande);
-        sprintf(commande, ".\\programme%d.exe", n);
+        sprintf(commande, ".\\EXO%d\\programme1987855904.exe", n);
         system(commande);
     } else {
         printf("Le programme %d n'existe pas.\n", n);

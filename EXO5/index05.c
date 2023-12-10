@@ -6,8 +6,8 @@ int main() {
     char ligne1[1000], ligne2[1000];
     int numLigne = 1;
 
-    fichier1 = fopen("fichier1.txt", "r");
-    fichier2 = fopen("fichier2.txt", "r");
+    fichier1 = fopen(".\\EXO5\\fichier1.txt", "r");
+    fichier2 = fopen(".\\EXO5\\fichier2.txt", "r");
 
     if (fichier1 == NULL || fichier2 == NULL) {
         printf("Erreur lors de l'ouverture des fichiers.\n");

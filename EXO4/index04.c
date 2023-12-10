@@ -5,7 +5,7 @@ int main() {
     char ligne[1000];
     int compteur = 0;
 
-    fichier = fopen("nom_du_fichier.txt", "r");
+    fichier = fopen(".\\EXO4\\nom_du_fichier.txt", "r");
 
     if (fichier == NULL) {
         printf("Erreur lors de l'ouverture du fichier.\n");
